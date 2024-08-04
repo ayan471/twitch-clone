@@ -43,7 +43,7 @@ export const BioModal = ({ initialValue }: BioModalProps) => {
       </DialogTrigger>
       <DialogContent>
         <DialogHeader>
-          <DialogTitle>Edit user bio</DialogTitle>
+          <DialogTitle>Edit User bio</DialogTitle>
         </DialogHeader>
         <form onSubmit={onSubmit} className="space-y-4">
           <Textarea
